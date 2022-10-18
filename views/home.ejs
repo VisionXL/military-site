@@ -73,34 +73,25 @@
 </head>
 
 <body class="text-center" style="background: rgb(0,0,0);overflow: hidden;overflow-y: scroll;">
-    <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark py-2"
-        style="position: fixed;background: rgb(0,0,0);">
-        <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center" href="#"><img
-                    src="/assets/img/usa%20logo-1.svg"><span><strong>MARINES</strong></span></a><button
-                data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span
-                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark py-2 w-100" style="width: 100vw;position: fixed;background: rgb(0,0,0);">
+        <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="#"><img src="/assets/img/usa%20logo-1.svg"><span><strong>MARINES</strong></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-5">
                 <ul class="navbar-nav ms-auto">
                     <% if(!currentUser) { %>
-                        <li class="nav-item "><a class="nav-link active font-weight-bold text-muted"
-                                style="font-weight:bolder;" href="/login">Login</a></li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"><a class="nav-link" href="#"></a></li>
-                        <% } %>
+                    <li class="nav-item "><a class="nav-link active font-weight-bold text-muted" style="font-weight:bolder;" href="/login">Login</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                    <% } %>
                 </ul>
             </div>
         </div>
     </nav>
     <section class="d-block py-4 py-xl-0" style="position: absolute;padding-top: 108px;overflow: hidden;">
-        <div class="border rounded border-0 d-flex flex-column justify-content-center align-items-center p-4 py-5"
-            style="background: linear-gradient(rgba(0,0,0,0.2), rgba(0,123,255,0.2)), url(&quot;assets/img/main%20one.svg&quot;) center / cover;height: 500px;min-width: 100vw;">
+        <div class="border rounded border-0 d-flex flex-column justify-content-center align-items-center p-4 py-5" style="background: linear-gradient(rgba(0,0,0,0.2), rgba(0,123,255,0.2)), url(&quot;assets/img/main%20one.svg&quot;) center / cover;height: 500px;min-width: 100vw;">
             <div class="row">
-                <div
-                    class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
+                <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
                     <div>
-                        <h1 class="font-monospace text-break text-uppercase fw-bold text-light mb-3">DEPLOYMENT DATABASE
-                            OF THE MARINE&nbsp;</h1>
+                        <h1 class="font-monospace text-break text-uppercase fw-bold text-light mb-3">DEPLOYMENT DATABASE OF THE MARINE&nbsp;</h1>
                     </div>
                 </div>
             </div>
@@ -109,56 +100,44 @@
             <hr>
         </div>
         <div class="container-fluid">
-            <h3 class="text-center"><strong><span style="color: rgb(90, 93, 98);">RECORDS OF DEPLOYED
-                        SOLDIERS</span></strong></h3>
+            <h3 class="text-center"><strong><span style="color: rgb(90, 93, 98);">RECORDS OF DEPLOYED SOLDIERS</span></strong></h3>
         </div>
-        <div class="text-center"><a class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="true"
-                aria-controls="collapse-1" href="#collapse-1" role="button">SCROLL</a>
+        <div class="text-center"><a class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapse-1" href="#collapse-1" role="button">SCROLL</a>
             <div class="collapse show" id="collapse-1">
                 <p>Collapse content.</p>
             </div>
         </div>
         <hr>
-        <div class="container-fluid py-4 py-xl-5" data-aos="slide-right" data-aos-duration="1000"
-            style="background: rgb(39,40,41);">
+        <div class="container-fluid py-4 py-xl-5" data-aos="slide-right" data-aos-duration="1000" style="background: rgb(39,40,41);">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
-                    <h2 class="text-break" style="color: var(--bs-white);">DISCOVER&nbsp; &nbsp; &nbsp; &nbsp;
-                        EXPLORE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BECOME</h2>
+                    <h2 class="text-break" style="color: var(--bs-white);">DISCOVER&nbsp; &nbsp; &nbsp; &nbsp; EXPLORE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BECOME</h2>
                     <hr style="color: var(--bs-red);background: var(--bs-red);height: 5px;">
-                    <p class="w-lg-50" style="color: var(--bs-white);">The bond we form. The battle we face. This is it
-                        means to fight and win as a united marine </p>
+                    <p class="w-lg-50" style="color: var(--bs-white);">The bond we form. The battle we face. This is it means to fight and win as a united marine </p>
                 </div>
             </div>
             <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-hover-animate="bounce">
                 <div class="col text-center" data-bss-hover-animate="bounce">
-                    <div class="card" data-bss-hover-animate="bounce"><img class="card-img-top w-100 d-block fit-cover"
-                            style="height: 300px;" src="assets/img/joel-rivera-camacho-pcUSid_NEpQ-unsplash.svg"
-                            width="414">
+                    <div class="card" data-bss-hover-animate="bounce"><img class="card-img-top w-100 d-block fit-cover" style="height: 300px;" src="assets/img/joel-rivera-camacho-pcUSid_NEpQ-unsplash.svg" width="414">
                         <div class="card-body p-4" style="background: rgb(39,40,41);">
                             <h4 class="card-title" style="color: var(--bs-card-bg);">PURPOSE AND BELONGING </h4>
-                            <p class="card-text" style="color: var(--bs-white);">The belonging the marine share together
-                                is more than mere togetherness. Its a collective fight for a common purpose.</p>
+                            <p class="card-text" style="color: var(--bs-white);">The belonging the marine share together is more than mere togetherness. Its a collective fight for a common purpose.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col" data-bss-hover-animate="bounce">
-                    <div class="card" data-bss-hover-animate="bounce"><img class="card-img-top w-100 d-block fit-cover"
-                            style="height: 300px;" src="assets/img/mark-tegethoff-l35_iueVQXE-unsplash.svg">
+                    <div class="card" data-bss-hover-animate="bounce"><img class="card-img-top w-100 d-block fit-cover" style="height: 300px;" src="assets/img/mark-tegethoff-l35_iueVQXE-unsplash.svg">
                         <div class="card-body p-4" style="background: rgb(39,40,41);">
                             <h4 class="card-title" style="color: var(--bs-card-bg);">MARINE CROPS STANDARDS</h4>
-                            <p class="card-text" style="color: var(--bs-card-bg);">To upload the trust our nation put in
-                                each of us, every marine must reach every standards.</p>
+                            <p class="card-text" style="color: var(--bs-card-bg);">To upload the trust our nation put in each of us, every marine must reach every standards.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col" data-bss-hover-animate="bounce">
-                    <div class="card" data-bss-hover-animate="bounce"><img class="card-img-top w-100 d-block fit-cover"
-                            style="height: 300px;" src="assets/img/cap.svg">
+                    <div class="card" data-bss-hover-animate="bounce"><img class="card-img-top w-100 d-block fit-cover" style="height: 300px;" src="assets/img/cap.svg">
                         <div class="card-body p-4" style="background: rgb(39,40,41);color: var(--bs-card-bg);">
                             <h4 class="card-title">OUR PURPOSE</h4>
-                            <p class="card-text">For a people . a place . an idea protecting its interest and place our
-                                nation is our purpose.</p>
+                            <p class="card-text">For a people . a place . an idea protecting its interest and place our nation is our purpose.</p>
                         </div>
                     </div>
                 </div>
@@ -169,15 +148,9 @@
             <hr>
             <hr>
             <div class="row">
-                <div class="col-md-4"><a class="navbar-brand d-flex align-items-center" href="#"><img
-                            src="assets/img/usa%20logo-1.svg"><span><strong><span style="color: rgb(90, 93, 98);">UNITED
-                                    STATES MARINES</span></strong></span></a></div>
-                <div class="col-md-4"><a class="navbar-brand d-flex align-items-center" href="#"
-                        style="margin-left: 115px;"><img src="assets/img/usa%20logo-1.svg"
-                            style="opacity: 0;"><span><strong><span style="color: rgb(90, 93, 98);">COVID-19
-                                    RESPONSE</span></strong></span></a></div>
-                <div class="col-md-4"><a class="navbar-brand d-flex align-items-center" href="#"
-                        style="padding-left: 60px;margin-left: 234px;"><img src="assets/img/Bangladesh-1.svg"></a></div>
+                <div class="col-md-4"><a class="navbar-brand d-flex align-items-center" href="#"><img src="assets/img/usa%20logo-1.svg"><span><strong><span style="color: rgb(90, 93, 98);">UNITED STATES MARINES</span></strong></span></a></div>
+                <div class="col-md-4"><a class="navbar-brand d-flex align-items-center" href="#" style="margin-left: 115px;"><img src="assets/img/usa%20logo-1.svg" style="opacity: 0;"><span><strong><span style="color: rgb(90, 93, 98);">COVID-19 RESPONSE</span></strong></span></a></div>
+                <div class="col-md-4"><a class="navbar-brand d-flex align-items-center" href="#" style="padding-left: 60px;margin-left: 234px;"><img src="assets/img/Bangladesh-1.svg"></a></div>
             </div>
         </div>
     </section>
