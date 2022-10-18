@@ -1,0 +1,162 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US MARINE</title>
+    <link rel="icon" href="/assets/img/usa-logo-1.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/home.css">
+</head>
+
+<body class="d-flex text-center text-white bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-left mb-0">YelpCamp</h3>
+                <nav class="nav nav-masthead justify-content-center float-md-right">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="/campgrounds">Campgrounds</a>
+                    <% if(!currentUser) { %>
+                    <a class="nav-link" href="/login">Login</a>
+                    <a class="nav-link" href="/register">Register</a>
+                    <% } else { %>
+                    <a class="nav-link" href="/logout">Logout</a>
+                    <% } %>
+                </nav>
+            </div>
+        </header>
+        <main class="px-3">
+            <h1>YelpCamp</h1>
+            <p class="lead"> Welcome to YelpCamp! <br> Jump right in and explore our many campgrounds. <br>
+                Feel free to share some of your own and comment on others!</p>
+            <a href="/campgrounds" class="btn btn-lg btn-secondary font-weight-bold border-white bg-white">View
+                Campgrounds</a>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+            <p>&copy; 2020 </p>
+        </footer>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+</body>
+
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" style="min-height: 100VH;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>US Marine</title>
+    <link rel="icon" href="/assets/img/usa-logo-1.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+
+<body class="text-center" style="background: rgb(0,0,0);overflow: hidden;overflow-y: scroll;">
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark py-3" style="width: 100vw;position: fixed;background: rgb(0,0,0);">
+        <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="#"><img src="/assets/img/usa%20logo-1.svg"><span><strong>MARINES</strong></span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-5">
+                <ul class="navbar-nav ms-auto">
+                    <% if(!currentUser) { %>
+                    <li class="nav-item "><a class="nav-link active font-weight-bold text-muted" style="font-weight:bolder;" href="/login">Login</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#"></a></li>
+                    <% } %>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="d-block py-4 py-xl-0" style="position: absolute;padding-top: 108px;overflow: hidden;">
+        <div class="border rounded border-0 d-flex flex-column justify-content-center align-items-center p-4 py-5" style="background: linear-gradient(rgba(0,0,0,0.2), rgba(0,123,255,0.2)), url(&quot;assets/img/main%20one.svg&quot;) center / cover;height: 500px;min-width: 100vw;">
+            <div class="row">
+                <div class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
+                    <div>
+                        <h1 class="font-monospace text-break text-uppercase fw-bold text-light mb-3">DEPLOYMENT DATABASE OF THE MARINE&nbsp;</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <hr>
+        </div>
+        <div class="container-fluid">
+            <h3 class="text-center"><strong><span style="color: rgb(90, 93, 98);">RECORDS OF DEPLOYED SOLDIERS</span></strong></h3>
+        </div>
+        <div class="text-center"><a class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapse-1" href="#collapse-1" role="button">SCROLL</a>
+            <div class="collapse show" id="collapse-1">
+                <p>Collapse content.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid py-4 py-xl-5" data-aos="slide-right" data-aos-duration="1000" style="background: rgb(39,40,41);">
+            <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2 class="text-break" style="color: var(--bs-white);">DISCOVER&nbsp; &nbsp; &nbsp; &nbsp; EXPLORE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BECOME</h2>
+                    <hr style="color: var(--bs-red);background: var(--bs-red);height: 5px;">
+                    <p class="w-lg-50" style="color: var(--bs-white);">The bond we form. The battle we face. This is it means to fight and win as a united marine </p>
+                </div>
+            </div>
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" data-bss-hover-animate="bounce">
+                <div class="col text-center" data-bss-hover-animate="bounce">
+                    <div class="card" data-bss-hover-animate="bounce"><img class="card-img-top w-100 d-block fit-cover" style="height: 300px;" src="assets/img/joel-rivera-camacho-pcUSid_NEpQ-unsplash.svg" width="414">
+                        <div class="card-body p-4" style="background: rgb(39,40,41);">
+                            <h4 class="card-title" style="color: var(--bs-card-bg);">PURPOSE AND BELONGING </h4>
+                            <p class="card-text" style="color: var(--bs-white);">The belonging the marine share together is more than mere togetherness. Its a collective fight for a common purpose.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-bss-hover-animate="bounce">
+                    <div class="card" data-bss-hover-animate="bounce"><img class="card-img-top w-100 d-block fit-cover" style="height: 300px;" src="assets/img/mark-tegethoff-l35_iueVQXE-unsplash.svg">
+                        <div class="card-body p-4" style="background: rgb(39,40,41);">
+                            <h4 class="card-title" style="color: var(--bs-card-bg);">MARINE CROPS STANDARDS</h4>
+                            <p class="card-text" style="color: var(--bs-card-bg);">To upload the trust our nation put in each of us, every marine must reach every standards.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-bss-hover-animate="bounce">
+                    <div class="card" data-bss-hover-animate="bounce"><img class="card-img-top w-100 d-block fit-cover" style="height: 300px;" src="assets/img/cap.svg">
+                        <div class="card-body p-4" style="background: rgb(39,40,41);color: var(--bs-card-bg);">
+                            <h4 class="card-title">OUR PURPOSE</h4>
+                            <p class="card-text">For a people . a place . an idea protecting its interest and place our nation is our purpose.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid" style="height: 10vh;min-height: 200px;margin-bottom: -100px;">
+            <hr>
+            <hr>
+            <div class="row">
+                <div class="col-md-4"><a class="navbar-brand d-flex align-items-center" href="#"><img src="assets/img/usa%20logo-1.svg"><span><strong><span style="color: rgb(90, 93, 98);">UNITED STATES MARINES</span></strong></span></a></div>
+                <div class="col-md-4"><a class="navbar-brand d-flex align-items-center" href="#" style="margin-left: 115px;"><img src="assets/img/usa%20logo-1.svg" style="opacity: 0;"><span><strong><span style="color: rgb(90, 93, 98);">COVID-19 RESPONSE</span></strong></span></a></div>
+                <div class="col-md-4"><a class="navbar-brand d-flex align-items-center" href="#" style="padding-left: 60px;margin-left: 234px;"><img src="assets/img/Bangladesh-1.svg"></a></div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

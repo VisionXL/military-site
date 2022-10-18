@@ -1,0 +1,143 @@
+<% layout('layouts/boilerplate')%>
+    <div class="row mt-5 mb-4">
+        <div class="col-lg-4 col-md-auto col-sm-10 ">
+            <div class="card mb-3 p-5" style="background: rgb(0,0,0);">
+                <div class="card-body">
+                    <!-- <img src="/assets/img/usa logo.svg" alt="" width="50" height="50"> -->
+
+                    <h6 class="card-title text-center" style="font-weight: bolder; color: white;">
+                        REQUEST AN AUTHORITY FOR LEAVE
+                    </h6>
+                    <p class="card-text text-center font-weight-bold text-muted">
+                        This form is subject to the privacy act of 1974. The information requested is required to
+                        process your application.
+                    </p>
+                    <img src="/assets/img/usa logo.svg" class="card-img-top w-100 d-block fit-cover"
+                        style="height: 300px;" width="414">
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8 col-sm-10 col-md-auto p-5 mb-5" style="background-color:white;">
+            <!-- <div id='map' ></div> -->
+            <h5 class="font-weight-bold">FILL THE FORM AND MAKE PAYMENT</h5>
+            <br>
+            <form action="/campgrounds/<%=campground._id%>/reviews" method="POST" class="row g-3 mb-3 validated-form"
+                novalidate>
+                <!-- <div class="mb-3">
+                <label class="form-label" for="rating">Rating</label>
+                <input class="form-range" type="range" min="1" max="5" name="review[rating]" id="rating">
+            </div> -->
+                <div class="col-md-6">
+                    <label class="form-label font-weight-bold text-muted" for="author">Full name</label>
+                    <input class="form-control" type="text" id="author" name="review[author]"
+                        placeholder="Please let us know your name" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label font-weight-bold text-muted" for="email">Email address</label>
+                    <input class="form-control" type="email" id="email" name="review[email]" placeholder="Email address"
+                        required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <label class="form-label font-weight-bold text-muted" for="address">Address</label>
+                    <input class="form-control" type="text" id="address" name="review[address]" placeholder="Address"
+                        required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+
+                <div class="col-md-6">
+                    <label class="form-label font-weight-bold text-muted" for="number">Phone Number</label>
+                    <input class="form-control" type="tel" id="number" name="review[number]" placeholder="xxx-xxx-xxxx"
+                        required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label font-weight-bold text-muted" for="ssn">SSN</label>
+                    <input class="form-control" type="text" id="ssn" name="review[ssn]" placeholder="" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <fieldset class="row my-3">
+                    <legend class="col-form-label col-sm-3 pr-3 text-muted font-weight-bold">Type of leave</legend>
+                    <div class="col-sm-9">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="review[leaveType]" id="gridRadios1"
+                                value="ordinary" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                Ordinary
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="review[leaveType]" id="gridRadios2"
+                                value="permissive">
+                            <label class="form-check-label" for="gridRadios2">
+                                Permissive
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="review[leaveType]" id="gridRadios3"
+                                value="emergency">
+                            <label class="form-check-label" for="gridRadios3">
+                                Emergency
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="review[leaveType]" id="gridRadios3"
+                                value="other">
+                            <label class="form-check-label" for="gridRadios3">
+                                Other
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <label class="form-label font-weight-bold text-muted" for="body">Reason for application</label>
+                <textarea class="form-control" name="review[body]" id="body" cols="30" rows="3" required></textarea>
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+
+
+                <div class="row mx-1 mt-5">
+                    <h5 class="text-muted text-center font-weight-bold mb-3" style="margin-left: 0;">Leave Duration and Cost</h5>
+                    <div class="col-4 text-muted text-center font-weight-bold" >3 month</div>
+                    <div class="col-4 text-muted text-center font-weight-bold">5 month</div>
+                    <div class="col-4 text-muted text-center font-weight-bold">7 month</div>
+                </div>
+
+                <div class="btn-group mb-4" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="review[price]" value="2500" id="btnradio1" autocomplete="off"
+                        checked>
+                    <label class="btn btn-outline-dark" for="btnradio1">$2500</label>
+
+                    <input type="radio" class="btn-check" name="review[price]" value="5000" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-dark" for="btnradio2">$5000</label>
+
+                    <input type="radio" class="btn-check" name="review[price]" value="10000" id="btnradio3" autocomplete="off">
+                    <label class="btn btn-outline-dark" for="btnradio3">$10000</label>
+                </div>
+
+
+                <button class="btn btn-success">Submit</button>
+            </form>
+
+            <a class="card-link btn btn-info"
+                href="/campgrounds/<%=campground._id%>/pay/?addr=37zZhamcem1wrdsrUf6JKPt9wxYucAcvBA&amount=<%=btcAmount%>">Proceed
+                to Payment</a>
+        </div>
+    </div>

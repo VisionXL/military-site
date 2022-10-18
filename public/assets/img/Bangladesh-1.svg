@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="188" height="40" viewBox="0 0 188 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="56" height="40" rx="4" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f0f0f0"/>
+    </linearGradient>
+    <filter id="Oval_43" x="2.667" y="2.667" width="18.667" height="15.334" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Bangladesh" transform="translate(0 -8)">
+    <g id="Country_Flags_Asia_Japan" data-name="Country Flags/Asia/Japan" transform="translate(0 8)">
+      <g id="US">
+        <rect id="Mask-2" data-name="Mask" width="56" height="40" rx="4" fill="#fff"/>
+        <g id="US-2" data-name="US" clip-path="url(#clip-path)">
+          <path id="Rectangle_511" data-name="Rectangle 511" d="M0,40V37.333H56V40Zm0-5.333V32H56v2.667Zm0-5.333V26.667H56v2.667ZM0,24V21.334H56V24Zm0-5.333V16H56v2.667Zm0-5.333V10.667H56v2.667ZM0,8V5.333H56V8ZM0,2.667V0H56V2.667Z" fill="#d02f44"/>
+          <rect id="Rectangle_511-2" data-name="Rectangle 511" width="24" height="18.667" fill="#46467f"/>
+          <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Oval_43)">
+            <path id="Oval_43-2" data-name="Oval 43" d="M16,12a1.333,1.333,0,1,1,1.333,1.334A1.333,1.333,0,0,1,16,12Zm-5.333,0A1.333,1.333,0,1,1,12,13.333,1.333,1.333,0,0,1,10.667,12ZM5.333,12a1.333,1.333,0,1,1,1.333,1.334A1.333,1.333,0,0,1,5.333,12ZM0,12a1.333,1.333,0,1,1,1.333,1.334A1.333,1.333,0,0,1,0,12ZM13.333,9.333a1.333,1.333,0,1,1,1.333,1.334A1.333,1.333,0,0,1,13.333,9.333ZM8,9.333a1.333,1.333,0,1,1,1.333,1.334A1.333,1.333,0,0,1,8,9.333Zm-5.333,0A1.333,1.333,0,1,1,4,10.667,1.333,1.333,0,0,1,2.667,9.333ZM16,6.666A1.333,1.333,0,1,1,17.333,8,1.333,1.333,0,0,1,16,6.666Zm-5.333,0A1.333,1.333,0,1,1,12,8,1.333,1.333,0,0,1,10.667,6.666Zm-5.333,0A1.333,1.333,0,1,1,6.666,8,1.333,1.333,0,0,1,5.333,6.666ZM0,6.666A1.333,1.333,0,1,1,1.333,8,1.333,1.333,0,0,1,0,6.666ZM13.333,4a1.333,1.333,0,1,1,1.333,1.334A1.333,1.333,0,0,1,13.333,4ZM8,4A1.333,1.333,0,1,1,9.333,5.333,1.333,1.333,0,0,1,8,4ZM2.667,4A1.333,1.333,0,1,1,4,5.333,1.333,1.333,0,0,1,2.667,4ZM16,1.333a1.333,1.333,0,1,1,1.333,1.334A1.333,1.333,0,0,1,16,1.333Zm-5.333,0A1.333,1.333,0,1,1,12,2.667,1.333,1.333,0,0,1,10.667,1.333Zm-5.333,0A1.333,1.333,0,1,1,6.666,2.667,1.333,1.333,0,0,1,5.333,1.333ZM0,1.333A1.333,1.333,0,1,1,1.333,2.667,1.333,1.333,0,0,1,0,1.333Z" transform="translate(2.67 2.67)" fill="url(#linear-gradient)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="United_States" data-name="United States" transform="translate(68 35)" fill="#fff" font-size="18" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">United States</tspan></text>
+  </g>
+</svg>
